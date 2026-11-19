@@ -45,6 +45,8 @@ distribuicao: proporção (%) de esforço por etapa
 frequencia_minima: cadência/função por canal
 criterios_qualidade: checklist de qualidade
 sinais_conteudo_fraco: indicadores de conteúdo fraco
+regras_compliance:
+  - regra setorial aplicável, com a restrição ou o cuidado editorial
 codigo_editorial:
   educa: como
   provoca: como
@@ -57,6 +59,7 @@ codigo_editorial:
 ## Checagens de coerência
 - Cada peça deve passar no **checklist**: vinculada a um território, com etapa e objetivo cognitivo, reforçando a promessa, **sem prometer resultado garantido**, no canal certo para o estado mental (5S).
 - Confronte **sinais de conteúdo forte × fraco**; aplique **limites de tom** (pode/não pode) e **compliance** setorial.
+- Registre em `regras_compliance` as regras da seção de Compliance e Segurança do Setor. Use `[]` quando estiver confirmado que não há regras setoriais específicas ou `["[LACUNA: regras setoriais a confirmar]"]` quando ainda precisarem de confirmação.
 - Reconcilie a **proporção de distribuição** com o gargalo declarado no Radar.
 - Preserve a **fronteira** entre marcas/produtos editoriais.
 

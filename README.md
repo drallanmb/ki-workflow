@@ -1,6 +1,6 @@
-# Skill "cadeia-kiso"
+# Skill "kiso-workflow"
 
-Skill para o Claude (Cowork / Claude Code) que conduz, por **entrevista guiada etapa a etapa**, a construção de um plano de ação de estratégia de marca e conteúdo — do diagnóstico estratégico ao calendário editorial executável.
+Skill para o Claude (Cowork / Claude Code) que conduz, a partir de **briefing, notas, transcrição ou entrevista guiada**, a construção de um plano de ação de estratégia de marca e conteúdo — do diagnóstico estratégico ao calendário editorial executável.
 
 São **13 etapas encadeadas**: cada etapa termina com um bloco `Variáveis-chave` (YAML) e a etapa seguinte consome essas variáveis como entrada. É isso que torna a metodologia uma *cadeia*, e não uma lista solta de exercícios — as decisões fluem para frente.
 
@@ -9,7 +9,7 @@ A skill é **genérica**: funciona para qualquer profissional, negócio ou marca
 ## Estrutura
 
 ```
-cadeia-kiso/
+kiso-workflow/
 ├── SKILL.md                     # workflow-mestre (modo entrevista, mapa das etapas, princípios)
 └── references/
     ├── etapa-01-diagnostico.md
@@ -49,18 +49,17 @@ cadeia-kiso/
 
 ## Como instalar
 
-**Via pacote `.skill` (recomendado):** empacote a pasta `cadeia-kiso/` como um arquivo `.skill` e, no Claude, clique em **Salvar skill** ou vá em **Ajustes › Capacidades**.
+**Via pacote `.skill` (recomendado):** empacote a pasta `kiso-workflow/` como um arquivo `.skill` e, no Claude, clique em **Salvar skill** ou vá em **Ajustes › Capacidades**.
 
 Para (re)empacotar a partir do fonte, basta zipar a pasta com a extensão `.skill`:
 
 ```bash
-cd cadeia-kiso-skill
-zip -r cadeia-kiso.skill cadeia-kiso
+zip -r kiso-workflow.skill kiso-workflow
 ```
 
 ## Como usar
 
-Depois de instalada, é só pedir ao Claude algo como: *"monta o plano de ação (Cadeia Kiso) para [marca/profissional]"* ou *"continua a cadeia a partir da etapa X"*. A skill assume a condução, uma etapa por vez, sempre fechando com as `Variáveis-chave` e confirmando antes de avançar.
+Depois de instalada, é só pedir ao Claude algo como: *"monta o plano de ação (Cadeia Kiso) para [marca/profissional]"* ou *"continua a cadeia a partir da etapa X"*. A skill aproveita o briefing, as notas ou os artefatos disponíveis e pergunta quando faltar informação necessária. Cada etapa fecha com as `Variáveis-chave`. Você pode pedir várias etapas em rascunho para revisá-las juntas, ou retomar um projeto pelo `MAPA.md`.
 
 ## Notas
 

@@ -6,7 +6,7 @@
 Converter os Temas Centrais num repositório de **ideias de conteúdo executáveis** (ganchos, ângulos, formatos), organizadas por tema, território, etapa da jornada e canal — pronto para virar calendário. Aqui a cadeia sai da estratégia e entra na produção.
 
 ## Entradas
-`Variáveis-chave` das Etapas 08 (territórios: dentro/fora), 10 (guia editorial: distribuição, frequência, código) e 11 (temas: prioridade, canais, jornada). Também o Radar (09) para os canais.
+`Variáveis-chave` das Etapas 08 (territórios: dentro/fora), 10 (guia editorial: `distribuicao`, `frequencia_minima`, `codigo_editorial` e `regras_compliance`) e 11 (temas: prioridade, canais, jornada). Também o Radar (09) para os canais.
 
 ## Como conduzir
 Diferente das etapas anteriores, esta é mais **generativa** do que de entrevista. O grosso das ideias você **gera** a partir das variáveis acumuladas; a entrevista serve para calibrar volume e coletar matéria-prima real. Depois de gerar, o usuário **cura** (mantém, corta, ajusta).
@@ -24,7 +24,7 @@ Para cada tema priorizado (Etapa 11), gere ideias que:
 - cubram as **etapas da jornada** na proporção definida no Guia Editorial (mais peso no gargalo);
 - casem **formato × canal × estado mental (5S)**;
 - tenham um **gancho/ângulo** claro (a tensão que abre a peça) e um **objetivo cognitivo**;
-- respeitem tom, código editorial e compliance.
+- respeitem o tom, o código editorial e cada regra de `regras_compliance` recebida da Etapa 10. Em Guias antigos, se a chave estiver ausente ou contiver uma lacuna, recupere no YAML da Etapa 10 as regras explícitas do texto aprovado. Se as regras estiverem ausentes, ambíguas ou em conflito, esclareça-as antes de gerar ideias que dependam delas.
 
 ## Estrutura do artefato
 1. Como usar este banco (legenda dos campos, prioridade)
@@ -63,7 +63,7 @@ cobertura_por_canal: nº de ideias por canal
 ## Checagens de coerência
 - **Sem ideia órfã:** toda ideia mapeia para um Tema Central e um Território (e respeita o `fora`).
 - **Cobertura proporcional:** a distribuição por etapa da jornada segue o Guia Editorial; o gargalo recebe mais ideias.
-- **Formato × canal × 5S** coerentes; nada que viole tom ou compliance.
+- **Formato × canal × 5S** coerentes. Verifique o tom e confira cada ideia contra `regras_compliance` da Etapa 10.
 - **Teste do "sem logo":** um concorrente genérico não poderia assinar essas ideias.
 
 ## Próxima etapa

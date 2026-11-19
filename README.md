@@ -1,4 +1,4 @@
-# Skill "kiso-workflow"
+# Skill "ki-workflow"
 
 Skill para o Claude (Cowork / Claude Code) que conduz, a partir de **briefing, notas, transcrição ou entrevista guiada**, a construção de um plano de ação de estratégia de marca e conteúdo — do diagnóstico estratégico ao calendário editorial executável.
 
@@ -9,7 +9,7 @@ A skill é **genérica**: funciona para qualquer profissional, negócio ou marca
 ## Estrutura
 
 ```
-kiso-workflow/
+ki-workflow/
 ├── SKILL.md                     # workflow-mestre (modo entrevista, mapa das etapas, princípios)
 └── references/
     ├── etapa-01-diagnostico.md
@@ -49,12 +49,12 @@ kiso-workflow/
 
 ## Como instalar
 
-**Via pacote `.skill` (recomendado):** empacote a pasta `kiso-workflow/` como um arquivo `.skill` e, no Claude, clique em **Salvar skill** ou vá em **Ajustes › Capacidades**.
+**Via pacote `.skill` (recomendado):** empacote a pasta `ki-workflow/` como um arquivo `.skill` e, no Claude, clique em **Salvar skill** ou vá em **Ajustes › Capacidades**.
 
 Para (re)empacotar a partir do fonte, basta zipar a pasta com a extensão `.skill`:
 
 ```bash
-zip -r kiso-workflow.skill kiso-workflow
+zip -r ki-workflow.skill ki-workflow
 ```
 
 ## Como usar

@@ -1,5 +1,5 @@
 ---
-name: kiso-workflow
+name: ki-workflow
 description: >-
   Metodologia Cadeia Kiso — usa briefings, notas, transcrições ou entrevista
   para construir um plano de ação de estratégia de marca e conteúdo, do
@@ -8,7 +8,7 @@ description: >-
   Use SEMPRE que o usuário quiser montar, estruturar ou revisar posicionamento
   de marca, autoridade, plano de conteúdo ou plano de ação estratégico para um
   profissional, negócio ou marca (inclusive posicionamento médico/profissional),
-  ou quando mencionar: kiso-workflow, Cadeia Kiso, etapa Kiso, diagnóstico estratégico,
+  ou quando mencionar: ki-workflow, Cadeia Kiso, etapa Kiso, diagnóstico estratégico,
   objetivo estratégico, ICP, persona estratégica, posicionamento estratégico,
   brand persona, manifesto de marca, territórios de marca, radar de canais,
   guia editorial, temas centrais, banco de ideias ou calendário de posts.
